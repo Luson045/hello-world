@@ -29,6 +29,7 @@
             <a class= "btn btn-success" href="like.php?id=<?php echo $r['post_id']?>" style="
   background-color:rgb(101, 142, 255);float:bottom;">👍<?php echo $r['likes']?></a>
             <h6 class="card-title"><?php echo $r['add_date']?></h6>
+            <h6 class="card-title"><?php echo $r['district'].",".$r['ustate']?></h6>
         </div>
         </div>
     <?php } ?>
